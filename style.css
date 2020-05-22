@@ -1,0 +1,154 @@
+
+/*általános design*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #c2bfbc;
+  margin-bottom: 60px;
+}
+
+.wrapper{
+  margin: 0 auto 0 60px;
+  width: 1000px;
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #e3e0e0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover{
+  background-color: #333;
+  color: #fbfbfb;
+
+}
+
+/*home designja*/
+.img-house{
+  width: 32px;
+}
+
+h2 {
+  color: #fbfbfb;
+  font-size: 72px;
+  font-family: "Lucida Bright";
+  line-height: 200px;
+}
+h3 {
+  color: #fbfbfb;
+  font-size: 48px;
+  font-family: "Lucida Bright";
+  line-height: 150px;
+}
+.hometext {
+  color: #fbfbfb;
+  font-size: 32px;
+  font-family: "Lucida Bright";
+  line-height: 50px;
+}
+
+/*portfolio designja*/
+.po2 {
+  color: #1e1e1e;
+  font-size: 72px;
+  font-family: Century;
+  font-weight: bold;
+  line-height: 150px;
+}
+.po3 {
+  color: #1e1e1e;
+  font-size: 48px;
+  font-family: Century;
+  font-weight: bold;
+  line-height: 200px;
+}
+.po4 {
+  color: #1e1e1e;
+  font-size: 32px;
+  font-family: Century;
+  font-weight: bold;
+  line-height: 50px;
+}
+.po5 {
+  color: #1e1e1e;
+  font-size: 36px;
+  font-family: Century;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.enkep{
+  display: block;
+  margin: 50px auto 50px auto;
+  width: 370px;
+  height: 426px;
+}
+
+.portf{
+  text-align: center;
+}
+
+/*projektek designja*/
+.projekt{
+  width: 80%;
+  margin-left: 10%;
+  border-spacing: 20px;
+}
+.pr2{
+  color: #1e1e1e;
+  font-size: 24px;
+  font-family: Century;
+  line-height: 40px;
+  text-align: left;
+}
+
+/*kapcsolatok designja*/
+
+.kapcs {
+  width: 100%;
+  height: 400px;
+  background-color: #9999ff;
+}
+
+.kapcsolatok{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.multim{
+  border-spacing: 20px;
+  margin: 0 50px 0 auto;
+}
+
+.img-face{
+  width: 32px;
+}
+.img-insta{
+  width: 32px;
+}
+.img-twitter{
+  width: 32px;
+}
+
+.tabl{
+  margin-right: 0px;
+}
